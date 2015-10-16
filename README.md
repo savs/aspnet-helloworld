@@ -6,6 +6,15 @@ This sample provides a basic working hello world for Docker users.
 Usage
 -----
 
+This image is on [Docker Hub](https://hub.docker.com/r/savs/aspnet-helloworld/) for easier usage.
+
+    docker run -t -d -p 5004:5004 savs/aspnet-helloworld
+
+Then open your browser and point it to your [Docker host IP](http://stackoverflow.com/a/17158003) on port 5004.
+
+Build your own
+--------------
+
 Do the following:
 
     git clone https://github.com/savs/aspnet-helloworld.git
